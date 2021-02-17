@@ -1,6 +1,12 @@
 # ambf_pbd_markdown
 # weekly track
 
+## Winter 2020, Week 6 Feb 15 to Feb 27
+- Goal: write method and members for pbd physics which replace cBulletWorld class
+
+  - change cmakelist to include source files from pbd
+  - construct header file.
+
 ## Winter 2020, Week 6 Feb 8 to Feb 14
 
 - Goal: create a simple simulation (ex. A bunch of particles) in ambf with PBD. change the physics simulation from BULLET-PHYSICS to PBD. Replace cBulletWorld class with my pbd class. Rewrite method and members in it. 
