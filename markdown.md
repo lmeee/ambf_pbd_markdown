@@ -5,7 +5,7 @@
 - Goal: write method and members for pbd physics which replace cBulletWorld class
 
   - change cmakelist to include source files from pbd
-  - construct header file.
+  - constructing header file.
 
 ## Winter 2020, Week 6 Feb 8 to Feb 14
 
