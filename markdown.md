@@ -5,8 +5,8 @@
 - Goal: write method and members for pbd physics which replace cBulletWorld class
 
   - change cmakelist to include source files
-  - constructing header file.
-  - write an example of a cuboid which is pulled by a constanst external force.
+  - construct header file example.h.
+  - write example.cpp, an example of a cuboid which is pulled by a constanst external force.
   - apply shapematching constraint and met unstable output.
   - output example
   ```
