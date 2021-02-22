@@ -4,8 +4,30 @@
 ## Winter 2020, Week 6 Feb 15 to Feb 27
 - Goal: write method and members for pbd physics which replace cBulletWorld class
 
-  - change cmakelist to include source files from pbd
+  - change cmakelist to include source files
   - constructing header file.
+  - write an example of a cuboid which is pulled by a constanst external force.
+  - apply shapematching constraint and met unstable output.
+  - output example
+  ```
+  iteration #9
+  9 th iteration: final position for particle 0 : 1.390e-309 | 7.245e-183 | 1.375e+01 
+  9 th iteration: final position for particle 1 : 1.000e+00 | 7.245e-183 | 1.375e+01 
+  9 th iteration: final position for particle 2 : 1.000e+00 | 1.000e+00 | 1.375e+01 
+  9 th iteration: final position for particle 3 : 1.390e-309 | 1.000e+00 | 1.375e+01 
+  9 th iteration: final position for particle 4 : 1.390e-309 | 7.245e-183 | 1.475e+01 
+  9 th iteration: final position for particle 5 : 1.000e+00 | 7.245e-183 | 1.475e+01 
+  9 th iteration: final position for particle 6 : 1.000e+00 | 1.000e+00 | 1.475e+01 
+  9 th iteration: final position for particle 7 : 1.390e-309 | 1.000e+00 | 1.475e+01
+  ```
+  
+  TODO:
+    - OOP, divide into classes
+    - more constraints
+    - visualization
+    - import robots (joint constraints)
+
+
 
 ## Winter 2020, Week 6 Feb 8 to Feb 14
 
