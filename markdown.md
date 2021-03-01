@@ -1,7 +1,23 @@
 # ambf_pbd_markdown
 # weekly track
 
-## Winter 2020, Week 6 Feb 15 to Feb 27
+## Winter 2020, Week 6 Feb 22 to Feb 28
+- Goal: Write rigid body PBD with joint constraint (universal constraint and slider constraint) with extend PBD
+
+  - Rigid body class
+  - Universal constraint implementation
+  - A simulation with 2 rigid bodies connected with universal joint
+  - Visualization for every time step with URDF file and ROS rviz
+  - Understanding XPBD
+  - t = 0*0.05s
+  ![image](https://user-images.githubusercontent.com/51052629/109461780-84748f80-7a17-11eb-9c4f-a7482fa8734b.png)
+
+  - t = 30*0.05s
+  ![image](https://user-images.githubusercontent.com/51052629/109461599-3cee0380-7a17-11eb-9c6d-84605fc1e841.png)
+
+
+
+## Winter 2020, Week 6 Feb 15 to Feb 21
 - Goal: write method and members for pbd physics which replace cBulletWorld class
 
   - change cmakelist to include source files
