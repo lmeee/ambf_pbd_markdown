@@ -13,8 +13,7 @@
   ![image](https://user-images.githubusercontent.com/51052629/109461780-84748f80-7a17-11eb-9c4f-a7482fa8734b.png)
 
   - t = 30*0.05s
-  ![image](https://user-images.githubusercontent.com/51052629/109461599-3cee0380-7a17-11eb-9c6d-84605fc1e841.png)
-
+  ![image](https://user-images.githubusercontent.com/51052629/109461872-a241f480-7a17-11eb-84f1-ffee9de73be8.png)
 
 
 ## Winter 2020, Week 6 Feb 15 to Feb 21
