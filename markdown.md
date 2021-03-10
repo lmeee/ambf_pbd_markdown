@@ -5,7 +5,7 @@
 
   - learn about hinge solver in code and learn about quaternion.
   - implement positional constraint and angular constraint for hinge joint with XPBD
-  - solver diverge in some specific case.
+  - solver perform well in first 9 frame, but diverge in some specific case.
 
   - in 10th frame step, solver perform well in beginning step but diverge in the following. In normal case, the vector n(n is the delta x before normalizing) should decrease to a value close to 0 in the process 
   - this cause a large velocity is recorded and use in 11th frame step and result in a large vector n in the first iteration.
