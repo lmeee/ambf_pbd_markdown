@@ -13,7 +13,12 @@
   - ![ang](https://user-images.githubusercontent.com/51052629/110713201-5bda5b80-81b6-11eb-83ab-f855d4b42a5b.gif)
 
   - screenshot of an urdf file of second case
-  - 
+  - In second link, hinge joint will have rpy to be approximately [r_value, 0, 0] with the x axis to be aligned. In the sample urdf, <origin rpy="2.09e+00 1.43e-03 1.10e-03" xyz="1.61e-03 -1.12e+00 -4.97e-01"/>. angular constraint modified the value
+  - without angular constraint (not hinge joint)
+  - ![3posnoang](https://user-images.githubusercontent.com/51052629/110714451-3e0df600-81b8-11eb-80a2-fcc471761379.png)
+  - with angular constraint (hinge joint)
+  - ![3ang](https://user-images.githubusercontent.com/51052629/110714452-40705000-81b8-11eb-93d0-4007afc0ac57.png)
+
 
 
 
