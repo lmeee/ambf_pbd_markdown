@@ -7,6 +7,8 @@
   - implement positional constraint and angular constraint for hinge joint with XPBD
   - solver perform well in first 9 frame, but diverge in some specific case.
 
+  - gif
+  ![test](https://user-images.githubusercontent.com/51052629/110669297-0b94d680-8181-11eb-9376-ed1e800779cc.gif)
   - in 10th frame step, solver perform well in beginning step but diverge in the following. In normal case, the vector n(n is the delta x before normalizing) should decrease to a value close to 0 in the process 
   - this cause a large velocity is recorded and use in 11th frame step and result in a large vector n in the first iteration.
   ![Screenshot from 2021-03-09 20-00-48](https://user-images.githubusercontent.com/51052629/110574563-2ed46d00-8112-11eb-8dc2-b9bb66e975ae.png)
@@ -19,6 +21,7 @@
   
   frame 11
   ![Screenshot from 2021-03-08 04-54-03](https://user-images.githubusercontent.com/51052629/110573953-0d26b600-8111-11eb-8c48-95b6ec72ebcb.png)
+
 
 
 
