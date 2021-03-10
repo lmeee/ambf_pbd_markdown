@@ -1,6 +1,22 @@
 # ambf_pbd_markdown
 # weekly track
 
+## Winter 2020, Week 6 Mar 8st to Mar 14th 
+
+  - position constraint only simulation (totally 60 frames, interval: 0.05s, each screen every 3 frames take one screenshot for gif )
+  - gravity is along -y axis, [0, 10, 0]
+  - ![pos](https://user-images.githubusercontent.com/51052629/110712337-e078aa00-81b5-11eb-8fb8-8815c6766713.gif)
+
+
+  - position constraint an d angular constraint together for hinge joint. To test angular constraint, we add and offset to gravity to let angular constraint adjust according to hinge joint constraint.
+  - gravity [2, -10, 0]
+  - ![ang](https://user-images.githubusercontent.com/51052629/110713201-5bda5b80-81b6-11eb-83ab-f855d4b42a5b.gif)
+
+  - screenshot of an urdf file of second case
+  - 
+
+
+
 ## Winter 2020, Week 6 Mar 1st to Mar 7th
 
   - learn about hinge solver in code and learn about quaternion.
