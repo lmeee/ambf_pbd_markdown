@@ -1,6 +1,27 @@
 # ambf_pbd_markdown
 # weekly track
 
+## Winter 2020, Week 6 Mar 1st to Mar 7th
+
+  - learn about hinge solver in code and learn about quaternion.
+  - implement positional constraint and angular constraint for hinge joint with XPBD
+  - solver diverge in some specific case.
+
+  - in 10th frame step, solver perform well in beginning step but diverge in the following. In normal case, the vector n(n is the delta x before normalizing) should decrease to a value close to 0 in the process 
+  - this cause a large velocity is recorded and use in 11th frame step and result in a large vector n in the first iteration.
+  ![Screenshot from 2021-03-09 20-00-48](https://user-images.githubusercontent.com/51052629/110574563-2ed46d00-8112-11eb-8dc2-b9bb66e975ae.png)
+
+  frame 9
+  ![Screenshot from 2021-03-08 04-55-05](https://user-images.githubusercontent.com/51052629/110573971-14e65a80-8111-11eb-86ba-43e9d68b8503.png)
+
+  frame 10
+  ![Screenshot from 2021-03-08 04-53-47](https://user-images.githubusercontent.com/51052629/110573937-05671180-8111-11eb-9418-8259ecb6efcb.png)
+  
+  frame 11
+  ![Screenshot from 2021-03-08 04-54-03](https://user-images.githubusercontent.com/51052629/110573953-0d26b600-8111-11eb-8c48-95b6ec72ebcb.png)
+
+
+
 ## Winter 2020, Week 6 Feb 22 to Feb 28
 - Goal: Write rigid body PBD with joint constraint (universal constraint and slider constraint) with extend PBD
 
