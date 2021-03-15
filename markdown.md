@@ -3,6 +3,7 @@
 
 ## Winter 2020, Week 6 Mar 8st to Mar 14th 
 
+  - It is final week, prepare for exam and project
   - position constraint only simulation (totally 60 frames, interval: 0.05s, each screen every 3 frames take one screenshot for gif )
   - gravity is along -y axis, [0, 10, 0]
   - ![pos](https://user-images.githubusercontent.com/51052629/110712337-e078aa00-81b5-11eb-8fb8-8815c6766713.gif)
