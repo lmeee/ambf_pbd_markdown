@@ -1,5 +1,10 @@
 # ambf_pbd_markdown
 # weekly track
+## Winter 2020, Week 6 Mar 15th to Mar 21st 
+  - goal: implement ur5 model with 2 hingejoints, complete visualization and compare it with the Newton-euler implementation.
+
+  - Work on friction simulation, complete a basic structure for it.
+  - A simple visualization program by communicating with publisher in ROS rviz to move robot. 
 
 ## Winter 2020, Week 6 Mar 8st to Mar 14th 
 
