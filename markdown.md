@@ -12,6 +12,9 @@
   - https://drive.google.com/file/d/1I1KV2TUsMAn3cZRrr3-dyrqhi6cQz8Je/view?usp=sharing
   - Another simulation with a highest starting points:
   - https://drive.google.com/file/d/1Lwvol186Mt0vXgxynf45DrFdeS13NfCM/view?usp=sharing
+  - FORMER DEMO has gravity (2.0, 10.0, 0.0) in pbd
+  - Another simulation with a highest starting points (vertical gravity):
+  - https://drive.google.com/file/d/1Lq0pbeiK9Ecvs6i2zw6cNFyHBHI2bmAN/view?usp=sharing
 
 
 
