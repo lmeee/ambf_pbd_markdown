@@ -5,6 +5,8 @@
 
   - video of PBD single hinge joint with universal robots' viusal links with gravity only. Control the joint angle with a publisher subscribed to '/joint_states'
   - https://drive.google.com/file/d/1m5mbRaobWELTBqNN9SHzzK0xCYiipFVd/view?usp=sharing
+  - take delta_x = 0.05s, try h = 0.001s/0.005s/0.01s (num of step = 50/10/5), smaller the h, larger the height when arm can reach when swinging to the other side. 
+  - highest radian it could reach 0.001s: 3.12763rad, 0.005s: 3.06064rad, 0.01s: 2.98691rad
   - Next step: add another hinge joint, create comparison with 2D dynamic model
 
 
