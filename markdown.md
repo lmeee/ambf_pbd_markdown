@@ -1,6 +1,14 @@
 # ambf_pbd_markdown
 # weekly track
-## Winter 2020, Week 6 Mar 15th to Mar 21st 
+
+## Winter 2020, Spring break Mar 22nd to Mar 28th
+
+  - video of PBD single hinge joint with universal robots' viusal links. Control the joint angle with a publisher subscribed to '/joint_states'
+  - https://drive.google.com/file/d/1bwMoG969JdInfQZDFMKM-3v_GSzEHQVQ/view?usp=sharing
+  - Next step: add another hinge joint, create comparison with 2D dynamic model
+
+
+## Winter 2020, Week 10 Mar 15th to Mar 21st 
   - goal: implement ur5 model with 2 hingejoints, complete visualization and compare it with the Newton-euler implementation.
 
   - Work on friction simulation, complete a basic structure for it.
