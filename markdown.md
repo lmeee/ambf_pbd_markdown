@@ -1,7 +1,14 @@
 # ambf_pbd_markdown
 # weekly track
 
-## Winter 2020, Spring break Mar 22nd to Mar 28th
+## Winter 2020,nge joint with  Spring break Mar 22nd to Mar 28th
+  - video of PBD two with universal robots' viusal links with vertical gravity only.
+  - https://drive.google.com/file/d/13K7LCcCuszDuSii1sAU0SuGWMVRAT3JR/view?usp=sharing
+  - strange movement of second link, need more investigation on poses of two links in each frames 
+  - ![image](https://user-images.githubusercontent.com/51052629/112834150-7f255780-904c-11eb-86b7-8eb1e09e925e.png)
+  - questions about solving differetial equation of dynamic model (2R robot), what method I can use for solving ODE with 2 unknown function? (unknown is q1, q2 and their derivative, others are known)
+
+
 
   - video of PBD single hinge joint with universal robots' viusal links with gravity only. Control the joint angle with a publisher subscribed to '/joint_states'
   - https://drive.google.com/file/d/1kIHEau3ELO2WacyncHx09XrSdKeCnqqH/view?usp=sharing
