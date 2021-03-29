@@ -8,7 +8,7 @@
   - ![image](https://user-images.githubusercontent.com/51052629/112834150-7f255780-904c-11eb-86b7-8eb1e09e925e.png)
   - questions about solving differetial equation of dynamic model (2R robot), what method I can use for solving ODE with 2 unknown function? (unknown is q1, q2 and their derivative, others are known)
 
-
+----------------------------------------------------------------------------------------------------------------------------------------
 
   - video of PBD single hinge joint with universal robots' viusal links with gravity only. Control the joint angle with a publisher subscribed to '/joint_states'
   - https://drive.google.com/file/d/1kIHEau3ELO2WacyncHx09XrSdKeCnqqH/view?usp=sharing
