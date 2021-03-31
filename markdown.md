@@ -2,7 +2,9 @@
 # weekly track
 
 ## Spring 2021, Week 1, Mar 29th to Apr 4th
-
+  - find out why is PBD sim and largrange sim different
+  - PBD sim weird movement frame num: 43-48, see details about this frame.
+  - compare with 2 hinge joint PBD sim created by PositionBasedDynamics project
 
 ## Winter 2020, Spring break Mar 22nd to Mar 28th
   ## two hinge ur robot pbd
