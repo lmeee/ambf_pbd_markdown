@@ -13,7 +13,7 @@
 
   - strange movement of second link, need more investigation on poses of two links in each frames 
   ## dynamic model of two hinge ur robot
-  - Read and understand 2R robot dynamics model
+  - Read and understand 2R robot dynamics model (Euler Largrange method, energy based method)
   - ![image](https://user-images.githubusercontent.com/51052629/112834150-7f255780-904c-11eb-86b7-8eb1e09e925e.png)
   - questions about solving differetial equation of dynamic model (2R robot), what method I can use for solving ODE with 2 unknown function? (unknown is q1, q2 and their derivative, others are known)
   - solve the ode and do visualization.
