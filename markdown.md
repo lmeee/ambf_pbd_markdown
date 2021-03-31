@@ -5,6 +5,7 @@
   ## two hinge ur robot pbd
   - video of PBD (two hinge joints) with universal robots' viusal links with vertical gravity only.
   - https://drive.google.com/file/d/13K7LCcCuszDuSii1sAU0SuGWMVRAT3JR/view?usp=sharing
+  - q1 is the first joint angle and q2 is the second joint angle
   - ![untitled2](https://user-images.githubusercontent.com/51052629/113106433-a0568700-91b7-11eb-8f72-0ad3e27ae860.jpg)
 
   - strange movement of second link, need more investigation on poses of two links in each frames 
@@ -14,6 +15,7 @@
   - questions about solving differetial equation of dynamic model (2R robot), what method I can use for solving ODE with 2 unknown function? (unknown is q1, q2 and their derivative, others are known)
   - solve the ode and do visualization.
   - ![image](https://user-images.githubusercontent.com/51052629/113099285-911f0b80-91ae-11eb-83b3-bbe7ffefad8f.png)
+  - q1 is the first joint angle and q2 is the second joint angle
   - ![untitled2](https://user-images.githubusercontent.com/51052629/113107175-79e51b80-91b8-11eb-9141-ce3f846b0e0d.jpg)
 
   - plotting of the result show that the robot total energy is increasing, and finally it will rotate in circle instead of oscillating, so does the demo video.
