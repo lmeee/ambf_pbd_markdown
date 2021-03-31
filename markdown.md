@@ -5,6 +5,8 @@
   ## two hinge ur robot pbd
   - video of PBD (two hinge joints) with universal robots' viusal links with vertical gravity only.
   - https://drive.google.com/file/d/13K7LCcCuszDuSii1sAU0SuGWMVRAT3JR/view?usp=sharing
+  - ![untitled2](https://user-images.githubusercontent.com/51052629/113106433-a0568700-91b7-11eb-8f72-0ad3e27ae860.jpg)
+
   - strange movement of second link, need more investigation on poses of two links in each frames 
   ## dynamic model of two hinge ur robot
   - Read and understand 2R robot dynamics model
