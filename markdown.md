@@ -5,9 +5,15 @@
   - video of PBD (two hinge joints) with universal robots' viusal links with vertical gravity only.
   - https://drive.google.com/file/d/13K7LCcCuszDuSii1sAU0SuGWMVRAT3JR/view?usp=sharing
   - strange movement of second link, need more investigation on poses of two links in each frames 
+  # dynamic model of two hinge ur robot
   - Read and understand 2R robot dynamics model
   - ![image](https://user-images.githubusercontent.com/51052629/112834150-7f255780-904c-11eb-86b7-8eb1e09e925e.png)
   - questions about solving differetial equation of dynamic model (2R robot), what method I can use for solving ODE with 2 unknown function? (unknown is q1, q2 and their derivative, others are known)
+  - solve the ode and do visualization.
+  - ![image](https://user-images.githubusercontent.com/51052629/113099285-911f0b80-91ae-11eb-83b3-bbe7ffefad8f.png)
+  - ![untitled](https://user-images.githubusercontent.com/51052629/113099786-5c5f8400-91af-11eb-804b-c8d82243e689.jpg)
+  - ploting of the result show that the function energy increase, so does the demo video.
+  - 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
