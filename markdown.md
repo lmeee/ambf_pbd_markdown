@@ -2,6 +2,7 @@
 # weekly track
 
 ## Winter 2020, Spring break Mar 22nd to Mar 28th
+  ## two hinge ur robot pbd
   - video of PBD (two hinge joints) with universal robots' viusal links with vertical gravity only.
   - https://drive.google.com/file/d/13K7LCcCuszDuSii1sAU0SuGWMVRAT3JR/view?usp=sharing
   - strange movement of second link, need more investigation on poses of two links in each frames 
