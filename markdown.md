@@ -5,6 +5,9 @@
   - find out why is PBD sim and largrange sim different
   - PBD sim weird movement frame num: 43-48, see details about this frame.
   - compare with 2 hinge joint PBD sim created by PositionBasedDynamics project
+  - PBD demo problem found, the second joint angle calculation is wrong (just use pose of the second link in the world frame). The correct way was to view the second link in the frame of the first link. Now it is correct.
+  - https://drive.google.com/file/d/1EajYWE59kECohwiEI5NlxcN3HUoRH4YI/view?usp=sharing
+  - this one seems to be correct.
 
 ## Winter 2020, Spring break Mar 22nd to Mar 28th
   ## two hinge ur robot pbd
