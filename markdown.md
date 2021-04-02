@@ -8,6 +8,8 @@
   - PBD demo problem found, the second joint angle calculation is wrong (just use pose of the second link in the world frame). The correct way was to view the second link in the frame of the first link. Now it is correct.
   - https://drive.google.com/file/d/1EajYWE59kECohwiEI5NlxcN3HUoRH4YI/view?usp=sharing
   - this one seems to be correct.
+  - ![屏幕截图(2)](https://user-images.githubusercontent.com/51052629/113382542-8f804f80-9336-11eb-9ad0-ae0273df6128.png)
+
 
 ## Winter 2020, Spring break Mar 22nd to Mar 28th
   ## two hinge ur robot pbd
