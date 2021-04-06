@@ -9,6 +9,7 @@
   - https://drive.google.com/file/d/1EajYWE59kECohwiEI5NlxcN3HUoRH4YI/view?usp=sharing
   - this one seems to be correct.
   - ![屏幕截图(2)](https://user-images.githubusercontent.com/51052629/113382542-8f804f80-9336-11eb-9ad0-ae0273df6128.png)
+  - Writing report about PBD and Euler-Largrange performance and their analysis.
 
 
 ## Winter 2020, Spring break Mar 22nd to Mar 28th
