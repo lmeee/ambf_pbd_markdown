@@ -4,6 +4,7 @@
 ## Spring 2021, Week 1, Mar 29th to Apr 4th
   - visualization of Forward Dynamics of Planar 2-DOF Robot Manipulator (https://www.mathworks.com/matlabcentral/fileexchange/69756-forward-dynamics-of-planar-2-dof-robot-manipulator)
   - https://drive.google.com/file/d/1MzpMO7FhU3oKKVKPscgNdMQZPtWrjUgf/view?usp=sharing
+  - trying to figure out what is the problem and improve algorithm
 
 ## Spring 2021, Week 1, Mar 29th to Apr 4th
   - find out why is PBD sim and largrange sim different
