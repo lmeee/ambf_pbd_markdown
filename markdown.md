@@ -8,6 +8,7 @@
   - Dealing with contact, create a simulation between a cube and the ground with the collision constraint and the cube should not penatrate the ground.
   - link is : https://drive.google.com/file/d/167NacII0xv5_3oA5zz2VbL3Wu2v8Wsnt/view?usp=sharing
   - the left cube had the collision constraint and the right one does not have. Thus, the left one stay on the ground and the right one falls.
+  - question: redering problem, inertia modelling, 2d collision implementation, future works on diffdart
 
 ## Spring 2021, Week 1, Mar 29th to Apr 4th
   - find out why is PBD sim and largrange sim different
