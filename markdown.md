@@ -3,7 +3,8 @@
 ## Spring 2021, Week 3 April 12th to Apr 18th
 
   - learn about differential physics simulation from Nvidia forum.
-  - implement the 2D collision PBD and making Sample demo. 
+  - implement the 2D collision PBD and making Sample demo， currently no good demo.
+  - Question: what kind of rigid body solver we are going to implement, what information it could output?
   
 ## Spring 2021, Week 2 April 5th to Apr 11th
   - visualization of Forward Dynamics of Planar 2-DOF Robot Manipulator (https://www.mathworks.com/matlabcentral/fileexchange/69756-forward-dynamics-of-planar-2-dof-robot-manipulator)
