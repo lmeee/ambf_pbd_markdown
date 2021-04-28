@@ -1,5 +1,11 @@
 # ambf_pbd_markdown
 # weekly track
+## Spring 2021, Week 4 April 19th to Apr 25th
+  - paper reading.
+  - An collision demonstration between cube and ground. (https://drive.google.com/file/d/1GeY8Tnkrtcw5uCQ4YiW2lXRtjfFOfCNB/view?usp=sharing) But did not add this constraint to the 2 dof robot now.
+  - Sadly, current demo is not good. Should focus on thinking about the solver's idea and paper reading. 
+
+
 ## Spring 2021, Week 3 April 12th to Apr 18th
 
   - learn about differential physics simulation from Nvidia forum.
