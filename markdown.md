@@ -3,7 +3,7 @@
 
 ## Spring 2021, Week 5&6 April 26th to May 10th
   - paper reading for collision differential framework
-    -  1, IPC (ultimate goal, complex deformable body contact solving)
+    -  1, IPC (ultimate goal, complex deformable body contact solving) https://zhuanlan.zhihu.com/p/154542103
     -  2, ADD
     -  3, diff DART stanford
     -  4, NeuralSim (https://github.com/google-research/tiny-differentiable-simulator) current major work also read the paper, try the code
