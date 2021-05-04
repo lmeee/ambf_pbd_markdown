@@ -1,12 +1,18 @@
 # ambf_pbd_markdown
 # weekly track
 
-## Spring 2021, Week 5 April 26th to May 2nd
+## Spring 2021, Week 5&6 April 26th to May 10th
   - paper reading for collision differential framework
     -  1, IPC (ultimate goal, complex deformable body contact solving)
     -  2, ADD
     -  3, diff DART stanford
-    -  4, NeuralSim (https://github.com/google-research/tiny-differentiable-simulator)
+    -  4, NeuralSim (https://github.com/google-research/tiny-differentiable-simulator) current major work also read the paper, try the code
+  
+  - pipeline:
+    - 1, PBD framwork
+    - 2, collision solver (start with easy, try complicate the scene, ex bump ground, simulate with triangle mesh, diff dart paper mention it)
+    - 3, make it differential (diff engine in stanford paper)
+    - 4, fun control problem, para estimation
 
 ## Spring 2021, Week 4 April 19th to Apr 25th
   - paper reading.
