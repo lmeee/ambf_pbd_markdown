@@ -1,5 +1,13 @@
 # ambf_pbd_markdown
 # weekly track
+
+## Spring 2021, Week 5 April 26th to May 2nd
+  - paper reading for collision differential framework
+    -  1, IPC (ultimate goal, complex deformable body contact solving)
+    -  2, ADD
+    -  3, diff DART stanford
+    -  4, NeuralSim (https://github.com/google-research/tiny-differentiable-simulator)
+
 ## Spring 2021, Week 4 April 19th to Apr 25th
   - paper reading.
   - An collision demonstration between cube and ground. (https://drive.google.com/file/d/1GeY8Tnkrtcw5uCQ4YiW2lXRtjfFOfCNB/view?usp=sharing) But did not add this constraint to the 2 dof robot now.
