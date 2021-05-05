@@ -16,7 +16,9 @@
 
 
   - complie and run https://github.com/google-research/tiny-differentiable-simulator . The project is successfully complie, still looking into how the make visualization work. Currently the meshcat visualizer only display empty scene.
-  - /home/lme/Pictures/Screenshot 2021-05-05 02:49:48.png
+  - ![Screenshot 2021-05-05 02:49:48](https://user-images.githubusercontent.com/51052629/117124080-b9210200-ad4c-11eb-9e5f-4e6556fbc6a4.png)
+
+
 
 ## Spring 2021, Week 4 April 19th to Apr 25th
   - paper reading.
