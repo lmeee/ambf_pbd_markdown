@@ -14,6 +14,9 @@
     - 3, make it differential (diff engine in stanford paper)
     - 4, fun control problem, para estimation
 
+
+  - complie and run https://github.com/google-research/tiny-differentiable-simulator . The project is successfully complie, still looking into how the make visualization work. Currently the meshcat visualizer only display empty scene.
+
 ## Spring 2021, Week 4 April 19th to Apr 25th
   - paper reading.
   - An collision demonstration between cube and ground. (https://drive.google.com/file/d/1GeY8Tnkrtcw5uCQ4YiW2lXRtjfFOfCNB/view?usp=sharing) But did not add this constraint to the 2 dof robot now.
