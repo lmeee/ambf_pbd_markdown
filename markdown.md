@@ -2,6 +2,11 @@
 # weekly track
 
 ## Spring 2021, Week 5&6 April 26th to May 10th
+  - code reading, find a demo that could be useful for implementing diff framework. pendulum_sys_id.cpp has a application that optimize an input parameter link length of pendulum by differentiating with cppad. The ground truth is based on simulation produced with link_length=1.5. The initial guess for optimization is set to be link_length=1.
+  - If this demo is good, will start writing my code for diff pbd based on it.
+
+
+
   - paper reading for collision differential framework
     -  1, IPC (ultimate goal, complex deformable body contact solving) https://zhuanlan.zhihu.com/p/154542103
     -  2, ADD
