@@ -1,6 +1,15 @@
 # ambf_pbd_markdown
 # weekly track
 
+## Spring 2021, Week 7 May 10th to May 16th
+  - take a vaccine shot.
+  - executable added for the demo in tiny simulator. understand the procedure of how the simulation is run and how the gradient is computed.
+  - The demo use cppad jacobean to compute the gradient for Gradietn descent method.
+  - Still have some problems on how the GradientFunctional class interact with class simulation and cppad.
+  - 1, How simulation pass the rollout function to GradientFunctional
+  - ![Screenshot from 2021-05-19 04-16-58](https://user-images.githubusercontent.com/51052629/118804444-8bae7b00-b859-11eb-8036-0d1d087a7050.png)
+
+
 ## Spring 2021, Week 5&6 April 26th to May 10th
   - code reading, find a demo that could be useful for implementing diff framework. pendulum_sys_id.cpp has a application that optimize an input parameter link length of pendulum by differentiating with cppad. The ground truth is based on simulation produced with link_length=1.5. The initial guess for optimization is set to be link_length=1.
   - If this demo is good, will start writing my code for diff pbd based on it.
