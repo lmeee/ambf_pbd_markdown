@@ -1,6 +1,14 @@
 # ambf_pbd_markdown
 # weekly track
 
+## Spring 2021, Week 8 May 17th to May 23th
+  - implement single hinge joint differential simulation using tiny simulator based on CPPAD.
+  - take pendulum_sys_id.cpp as sample, add my PBD simulation as third_party project and switch the simulation in original file to PBD.
+  - code can be executed now, but gradient is not computed correctly. Also, when input is not changing, the cost change.
+  - ![image](https://user-images.githubusercontent.com/51052629/119650324-88c30580-bdd8-11eb-9dfb-fde9e0d38724.png)
+  - gradient is always 0. configuration of cppad is not correct or problem in rollout function?
+
+
 ## Spring 2021, Week 7 May 10th to May 16th
   - take a vaccine shot.
   - executable added for the demo in tiny simulator. understand the procedure of how the simulation is run and how the gradient is computed.
