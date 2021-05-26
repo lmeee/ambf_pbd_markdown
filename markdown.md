@@ -2,7 +2,8 @@
 # weekly track
 
 ## Spring 2021, Week 8 May 17th to May 23th
-  - implement single hinge joint differential simulation using tiny simulator based on CPPAD.
+  - implement single hinge joint differential simulation differentiate with respect to pendulum length using tiny simulator based on CPPAD.
+  - Scene include one hinge joint (1 dof). We predefine a ground truth simulation with a set link length (say length is 2), the trajectory is collected (position, velocity, acceleration). Then for each simulation with different link length, we can collect the trajectory and calculate the loss function (say norm of difference between trajectory and ground truth). Then we get a loss function with input link length and output error of current simulation. Then we initialize a link length (say link length is 1) and update link length based on the gradient descent and find optimal value. 
   - take pendulum_sys_id.cpp as sample, add my PBD simulation as third_party project and switch the simulation in original file to PBD.
   - code can be executed now, but gradient is not computed correctly. Also, when input is not changing, the cost change.
   - ![image](https://user-images.githubusercontent.com/51052629/119650324-88c30580-bdd8-11eb-9dfb-fde9e0d38724.png)
