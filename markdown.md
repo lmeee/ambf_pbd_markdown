@@ -1,6 +1,12 @@
 # ambf_pbd_markdown
 # weekly track
 
+## Spring 2021, Week 9-10 May 24th to June 8th
+
+  - final exam and projects
+  - 
+
+
 ## Spring 2021, Week 8 May 17th to May 23th
   - implement single hinge joint differential simulation differentiate with respect to pendulum length using tiny simulator based on CPPAD.
   - Scene include one hinge joint (1 dof). We predefine a ground truth simulation with a set link length (say length is 2), the trajectory is collected (position, velocity, acceleration). Then for each simulation with different link length, we can collect the trajectory and calculate the loss function (say norm of difference between trajectory and ground truth). Then we get a loss function with input link length and output error of current simulation. Then we initialize a link length (say link length is 1) and update link length based on the gradient descent and find optimal value. 
