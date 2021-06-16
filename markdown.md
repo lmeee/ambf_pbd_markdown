@@ -1,6 +1,12 @@
 # ambf_pbd_markdown
 # weekly track
 
+## Summer 2021 June 8 to June 13
+  - migrate cppad differentiation code part from tiny diff to DiffPBD due to error in executing PBD in tiny diff. 
+  - Problems in executing cppad in DiffPBD, make error with make, executabel file generated but make error exist.
+  -  ![image](https://user-images.githubusercontent.com/51052629/122255436-f5cf3580-ce82-11eb-9210-91801734cd35.png)
+
+
 ## Spring 2021, Week 9-10 May 24th to June 8th
 
   - final exam and projects
