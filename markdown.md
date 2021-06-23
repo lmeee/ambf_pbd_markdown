@@ -1,8 +1,9 @@
 # ambf_pbd_markdown
 # weekly track
 ## Summer 2021 June 14 to June 20
-  - cmake configuration finish and loss function, simulation part finish, now writing the cppad differentiation part, original code is complicated with specification on different algebra and differentiation method, need to extract cppad out only and currently deal with template error in my code.
-  - ![Screenshot 2021-06-23 10:00:19](https://user-images.githubusercontent.com/51052629/123138544-0004ad00-d40a-11eb-9ccc-78a1144adea2.png)
+  - cmake configuration finish and loss function, simulation part finish, now writing the cppad differentiation part, original code is complicated with specification on different algebra and differentiation method and need to extract cppad out only. currently deal with cppad AD type variable error in cppad.
+  - ![Screenshot 2021-06-23 10:21:25](https://user-images.githubusercontent.com/51052629/123141097-dbf69b00-d40c-11eb-82a1-9dec578bd0c0.png)
+
 
 
 ## Summer 2021 June 8 to June 13
