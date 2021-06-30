@@ -1,6 +1,14 @@
 # ambf_pbd_markdown
 # weekly track
-## Summer 2021 June 14 to June 20
+
+## Summer 2021 June 29 to July 5
+  - Single pendulum demo done, true pendulum length set to be 2m and initial estimated pendulum length set to be 1, optimized with GD with 100 steps, final estimated pendulum length is 1.9930m.
+  - ![Screenshot 2021-06-30 14:47:10](https://user-images.githubusercontent.com/51052629/124036123-5f3a6280-d9b2-11eb-87e1-0edbb87dbb12.png)
+
+
+
+
+## Summer 2021 June 21 to June 28
   - finish template structure for DiffPBD, currently debugging the code. For regular case where data type being float (normal simulation), the code works. But for data type being CPP::AD<float> which is used for operation sequence recording, the code did not work. Main reason is that some eigen operation did not support cppad, need to rewrite it into correct format.
 
 
