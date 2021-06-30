@@ -1,6 +1,10 @@
 # ambf_pbd_markdown
 # weekly track
 ## Summer 2021 June 14 to June 20
+  - finish template structure for DiffPBD, currently debugging the code. For regular case where data type being float (normal simulation), the code works. But for data type being CPP::AD<float> which is used for operation sequence recording, the code did not work. Main reason is that some eigen operation did not support cppad, need to rewrite it into correct format.
+
+
+## Summer 2021 June 14 to June 20
   - cmake configuration finish and loss function, simulation part finish, now writing the cppad differentiation part, original code is complicated with specification on different algebra and differentiation method and need to extract cppad out only. currently deal with cppad AD type variable error in cppad.
   - ![Screenshot 2021-06-23 10:21:25](https://user-images.githubusercontent.com/51052629/123141097-dbf69b00-d40c-11eb-82a1-9dec578bd0c0.png)
 
