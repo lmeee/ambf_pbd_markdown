@@ -2,6 +2,7 @@
 # weekly track
 
 ## Summer 2021 June 29 to July 5
+  - debug on double pendulum, add output expression into the code to provide debug information, the problem seems to be in solvePositionConstraint in the constraint solving iteration. The program could converge when only calculating one hinge joint constraint or calculating hinge joint constraint on seperate single pendulum case (joint1.solvePositionConstraint(rblist[0], rblist[1]);joint2.solvePositionConstraint(**rblist[0]**, rblist[2])) but explore to nan when calculating regular consecutive pendulum case (joint1.solvePositionConstraint(rblist[0], rblist[1]);joint2.solvePositionConstraint(**rblist[1]**, rblist[2]));
   - Single pendulum demo done, true pendulum length set to be 2m and initial estimated pendulum length set to be 1, optimized with GD with 100 steps, final estimated pendulum length is 1.9930m.
   - ![Screenshot 2021-06-30 14:47:10](https://user-images.githubusercontent.com/51052629/124036123-5f3a6280-d9b2-11eb-87e1-0edbb87dbb12.png)
 
