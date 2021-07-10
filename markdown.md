@@ -1,5 +1,9 @@
 # ambf_pbd_markdown
 # weekly track
+## Summer 2021 July 6 to July 12
+  - converting code from cpp to python, currently forward simulation for one hinge work, but for autograd with pytorch, the following problem met.
+  - ![Screenshot from 2021-07-09 19-56-55](https://user-images.githubusercontent.com/51052629/125149816-19874380-e0f0-11eb-9252-d5e1d9bc6f66.png)
+
 
 ## Summer 2021 June 29 to July 5
   - debug on double pendulum, add output expression into the code to provide debug information, the problem seems to be in solvePositionConstraint in the constraint solving iteration. The program could converge when only calculating one hinge joint constraint or calculating hinge joint constraint on seperate single pendulum case (joint1.solvePositionConstraint(rblist[0], rblist[1]);joint2.solvePositionConstraint(**rblist[0]**, rblist[2])) but explore to nan when calculating regular consecutive pendulum case (joint1.solvePositionConstraint(rblist[0], rblist[1]);joint2.solvePositionConstraint(**rblist[1]**, rblist[2]));
