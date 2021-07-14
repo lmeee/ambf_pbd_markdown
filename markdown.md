@@ -2,8 +2,8 @@
 # weekly track
 ## Summer 2021 July 6 to July 12
   - finish two hinge joint optimization. True state set to be both robot arm with length 2m. Optimization started with both arm length to be \[1.5m, 1.5m\]. The trajectory, linear velocity and linear acceleration on z-axis at each PBD iteration is recorded and compute loss with the true state. loss drop from 9.68 to 0.147 with final optimized arm length to be \[2.08, 1.85\]. Video comparison is attached.
-  - true state with \[2.,2.\]: https://drive.google.com/file/d/1d8l_6H8bIbZh_tKepiPuxSaF_3S35Cwn/view?usp=sharing
-  - optimized state  \[2.08, 1.85\]: https://drive.google.com/file/d/1uwOPLpz88X4XmYAqBf_w3Xzo6QS7CpUY/view?usp=sharing
+  - true state with arm length \[2.,2.\]: https://drive.google.com/file/d/1d8l_6H8bIbZh_tKepiPuxSaF_3S35Cwn/view?usp=sharing
+  - optimized state arm length \[2.08, 1.85\]: https://drive.google.com/file/d/1uwOPLpz88X4XmYAqBf_w3Xzo6QS7CpUY/view?usp=sharing
   - optimization process (using ADAM):
   - ![gradient](https://user-images.githubusercontent.com/51052629/125592536-284f1036-2d56-4d48-8776-8316a8982eee.png)
 
