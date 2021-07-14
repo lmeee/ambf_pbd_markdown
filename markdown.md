@@ -1,6 +1,10 @@
 # ambf_pbd_markdown
 # weekly track
 ## Summer 2021 July 6 to July 12
+  - finish two hinge joint optimization. True state set to be both robot arm with length 2m. Optimization started with both arm length to be \[1.5m, 1.5m\]. The trajectory, linear velocity and linear acceleration on z-axis at each PBD iteration is recorded and compute loss with the true state. loss drop from 9.68 to 0.147 with final optimized arm length to be \[2.08, 1.85\]. Video comparison is attached.
+  - true state with \[2.,2.\]: https://drive.google.com/file/d/1d8l_6H8bIbZh_tKepiPuxSaF_3S35Cwn/view?usp=sharing
+  - optimized state  \[2.08, 1.85\]: https://drive.google.com/file/d/1uwOPLpz88X4XmYAqBf_w3Xzo6QS7CpUY/view?usp=sharing
+  - 
   - converting code from cpp to python, currently forward simulation for one hinge work, but for autograd with pytorch, the following problem met.
   - ![Screenshot from 2021-07-09 19-56-55](https://user-images.githubusercontent.com/51052629/125149816-19874380-e0f0-11eb-9252-d5e1d9bc6f66.png)
 
