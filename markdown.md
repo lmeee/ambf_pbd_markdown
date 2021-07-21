@@ -1,5 +1,12 @@
 # ambf_pbd_markdown
 # weekly track
+## Summer 2021 July 13 to July 19
+  - Work on forward simulation of baxter left arm. First translate positional and angular information of joint and arms in URDF file to global frame. Also input the kinematics parameter like mass and inertia tensor into the program. 
+  - During forward simulation, joint constraint for hinge joint with the following axis did not converge and error even diverge as the constraint solve carries on. hinge joint about other two axis work well.
+  - ![gettyimages-73016742-612x612](https://user-images.githubusercontent.com/51052629/126494707-741942db-0684-4ef1-a98d-0e0e6bf1887a.jpg)
+  - ![Screenshot 2021-07-21 06:01:56](https://user-images.githubusercontent.com/51052629/126492851-db3c689e-ed8e-4789-94c4-066f0c6156d2.png)
+
+
 ## Summer 2021 July 6 to July 12
   - finish two hinge joint optimization. True state set to be both robot arm with length 2m. Optimization started with both arm length to be \[1.5m, 1.5m\]. The trajectory, linear velocity and linear acceleration on z-axis at each PBD iteration is recorded and compute loss with the true state. loss drop from 9.68 to 0.147 with final optimized arm length to be \[2.08, 1.85\]. Video comparison is attached.
   - true state with arm length \[2.,2.\]: https://drive.google.com/file/d/1d8l_6H8bIbZh_tKepiPuxSaF_3S35Cwn/view?usp=sharing
