@@ -3,8 +3,13 @@
 ## Summer 2021 July 13 to July 19
   - Work on forward simulation of baxter left arm. First translate positional and angular information of joint and arms in URDF file to global frame. Also input the kinematics parameter like mass and inertia tensor into the program. 
   - During forward simulation, joint constraint for hinge joint with the following axis did not converge and error even diverge as the constraint solve carries on. hinge joint about other two axis work well.
+  - Fig 1 joint type that is not solved
   - ![gettyimages-73016742-612x612](https://user-images.githubusercontent.com/51052629/126494707-741942db-0684-4ef1-a98d-0e0e6bf1887a.jpg)
+  - Fig 2 constraint solve not converge
   - ![Screenshot 2021-07-21 06:01:56](https://user-images.githubusercontent.com/51052629/126492851-db3c689e-ed8e-4789-94c4-066f0c6156d2.png)
+  - Fig 3 Image of baxter robot arm in rviz
+  - ![Screenshot 2021-07-21 06:40:36](https://user-images.githubusercontent.com/51052629/126498628-aec519cc-8662-4d01-93f0-724347f612eb.png)
+ 
 
 
 ## Summer 2021 July 6 to July 12
