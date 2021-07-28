@@ -14,6 +14,7 @@
 - Python Bindings
 
 
-  - 1, estimate torque using forward PBD
-  - 2, parameter estimation with DiffPBD
-  - 3, gravity compansation, force control, (Omni robot) with Diff PBD
+#### DiffPBD rigid contribution
+ - 1, estimate torque using forward PBD
+ - 2, parameter estimation with DiffPBD
+ - 3, gravity compansation, force control, (Omni robot) with Diff PBD
