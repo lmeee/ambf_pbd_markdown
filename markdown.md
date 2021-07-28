@@ -1,5 +1,11 @@
 # ambf_pbd_markdown
 # weekly track
+## Summer 2021 July 20 to July 26
+  - Finish Baxter left arm simulation with gravity force. Link is below.
+  - https://drive.google.com/file/d/1_K68tVc1nTwRBWBuUd9JdCBI2QXVULnW/view?usp=sharing
+  - https://drive.google.com/file/d/1Ugt9q9UnNSlRIGeL3RQozm9XisUl6l3a/view?usp=sharing
+  - 
+
 ## Summer 2021 July 13 to July 19
   - Work on forward simulation of baxter left arm. First translate positional and angular information of joint and arms in URDF file to global frame. Also input the kinematics parameter like mass and inertia tensor into the program. 
   - During forward simulation, joint constraint for hinge joint with the following axis did not converge and error even diverge as the constraint solve carries on. hinge joint about other two axis work well.
