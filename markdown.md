@@ -1,5 +1,15 @@
 # ambf_pbd_markdown
 # weekly track
+## Summer 2021 July 4 to July 11
+  - Finish matrix version Baxter Arm forward simulation. Compare to previous version, the forward simulation using matrix is 7 times faster than normal forward simulation. Below is an image comparing the time consumption when running 10 time steps forward simulation.
+  - ![Screenshot 2021-08-11 05:25:40](https://user-images.githubusercontent.com/51052629/129028292-b50b6c1a-0e4e-4f24-b428-f2a2d9c49f04.png)
+  - Able to run the forward for larger time step. Video show the forward simulation for arm falling case when number of time step is 200
+  - https://drive.google.com/file/d/1JHsANdV3ufY8y2VDXgYETS5cTYfsFMsW/view?usp=sharing
+  - Below is the old version of forward simulation with fewer time steps.
+  - https://drive.google.com/file/d/1Ugt9q9UnNSlRIGeL3RQozm9XisUl6l3a/view?usp=sharing
+
+
+
 ## Summer 2021 July 20 to July 26
   - Finish Baxter left arm simulation with gravity force. Link is below.
   - https://drive.google.com/file/d/1_K68tVc1nTwRBWBuUd9JdCBI2QXVULnW/view?usp=sharing
