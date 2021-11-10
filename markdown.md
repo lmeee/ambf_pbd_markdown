@@ -1,5 +1,12 @@
 # ambf_pbd_markdown
 # weekly track
+
+## Fall 2021 Nov 4 to Nov 11
+  - DiffPBD + DiffCollision: generalize a trajectory by ourselves and combine with diffcol opimizer.
+  - DiffPBD + momentum and energy conservation: Rigid body need to be stable in a long simualtion? don't lose energy and add constraint!
+  - DiffPBD + force calculation: estimate force exerted to endeffector and 
+  - Faster DiffPBD: wrap up some function? switch to cppad or tiny differential simulator?
+
 ## Summer 2021 July 4 to July 11
   - Finish matrix version Baxter Arm forward simulation. Compare to previous version, the forward simulation using matrix is 7 times faster than normal forward simulation. Below is an image comparing the time consumption when running 10 time steps forward simulation.
   - ![Screenshot 2021-08-11 05:25:40](https://user-images.githubusercontent.com/51052629/129028292-b50b6c1a-0e4e-4f24-b428-f2a2d9c49f04.png)
