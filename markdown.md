@@ -3,7 +3,7 @@
 
 ## Fall 2021 Nov 4 to Nov 11
   - DiffPBD + DiffCollision: generalize a trajectory by ourselves and combine with diffcol opimizer.
-  - DiffPBD + momentum and energy conservation: Rigid body need to be stable in a long simualtion? don't lose energy and add constraint!
+  - DiffPBD + momentum and energy conservation: Rigid body need to be stable in a long simualtion? don't lose energy and add constraint! (Constrained Projective Dynamics: Real-Time Simulation of Deformable Objects with Energy-Momentum Conservation)
   - DiffPBD + force calculation: estimate force exerted to endeffector and 
   - Faster DiffPBD: wrap up some function? switch to cppad or tiny differential simulator?
 
