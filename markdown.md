@@ -7,6 +7,7 @@
   - DiffPBD + collision: collision with differentiable property. Contact model baseline: ADD and Primal/Dual Descent Methods for Dynamics
   - DiffPBD + force calculation: estimate force exerted to endeffector and optimize the contact force in simulation.
   - Faster DiffPBD: wrap up some function? switch to cppad or tiny differential simulator?
+  - Deformable+DiffPBD: rigid-deformable coupling = T-RO
 
 ## Summer 2021 July 4 to July 11
   - Finish matrix version Baxter Arm forward simulation. Compare to previous version, the forward simulation using matrix is 7 times faster than normal forward simulation. Below is an image comparing the time consumption when running 10 time steps forward simulation.
