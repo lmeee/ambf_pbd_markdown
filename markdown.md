@@ -1,6 +1,10 @@
 # ambf_pbd_markdown
 # weekly track
 
+## Spring 2022 Apr 13th
+  - simple experiment that shows the model that can natively simulate fluid and rigid body simenteously, don't even need to coupling them. 
+  - New exp on robot manipulated constant flow rate pouring experiment. Don't need rigid-fluid coupling, just set a bounding collisiion box for fluid and delete the fluid that is already pour out. Question is how to modelling the fluid and how the cup is fixed with robot.
+
 ## Fall 2021 Nov 4 to Nov 11
   - DiffPBD + DiffCo: generalize a trajectory by ourselves and combine with diffcol opimizer. (DiffCo: Auto-Differentiable Proxy Collision Detection with Multi-class Labels for Safety-Aware Trajectory Optimization)
   - DiffPBD + momentum and energy conservation: Rigid body need to be stable in a long simualtion? don't lose energy and add constraint! (Constrained Projective Dynamics: Real-Time Simulation of Deformable Objects with Energy-Momentum Conservation)
